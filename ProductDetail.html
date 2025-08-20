@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Product details for LILY clothing items. High-quality, timeless apparel." />
+  <title>LILY Clothing</title>
+  <link rel="stylesheet" href="ClothingStore.css" />
+  <link rel="icon" href="./Picture/Lily logo.png">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <a href="index.html" class="logo">LILY</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="new-arrivals.html">New Arrivals</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <button class="cart-toggle" aria-label="Open cart">🛒 <span id="cart-count">0</span></button>
+      <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+  <main class="container2">
+    <a href="index.html" class="back-link">← Back to Products</a>
+    <section id="product-detail" class="product-detail-layout">
+      <!-- Product details will be rendered here -->
+    </section>
+    <section class="related-products">
+      <h2>Related Products</h2>
+      <div class="related-grid" id="related-grid">
+        <!-- Related products will be rendered here -->
+      </div>
+    </section>
+    <section class="reviews">
+      <h2>Customer Reviews</h2>
+      <div id="reviews-list">
+        <div class="review-item">
+          <p><strong>Jane Doe:</strong> Great quality! 5/5</p>
+        </div>
+        <div class="review-item">
+          <p><strong>John Smith:</strong> Comfortable and stylish. 4/5</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="cart-popup">
+    <div class="cart-popup__header">
+      <h3>Your Cart</h3>
+      <button class="cart-popup__close" aria-label="Close cart">×</button>
+    </div>
+    <div class="cart-popup__body">
+      <!-- Cart items will be rendered here -->
+    </div>
+    <div class="cart-popup__footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <span id="cart-total">$0.00</span>
+      </div>
+      <button id="checkout-btn" class="btn">Checkout</button>
+    </div>
+  </div>
+  <script src="ClothingStore.js" defer></script>
+</body>
+</html>
