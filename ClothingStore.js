@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // --- 1. STATE & DATA ---
   const products = [
-    { id: 'LILY Old Money Peak Lapel Blazer', name: 'LILY Old Money Peak Lapel Blazer', price: 129.80, image: './Picture/Product-1.webp', desc: '- Outer Fabric: 85.7% Polyester, 8.3% Viscose, 6.0% Spandex <br>Lining 1: 100% Polyester <br>Lining 2: 55% Polyester, 45% Viscose <br>- Gentle dry cleaning, do not wash, do not bleach', category: 'Blazers' },
+    { id: 'LILY Old Money Peak Lapel Blazer', name: 'LILY Old Money Peak Lapel Blazer', price: 129.80, image: './Picture/Product-2.webp', desc: '- Outer Fabric: 85.7% Polyester, 8.3% Viscose, 6.0% Spandex <br>Lining 1: 100% Polyester <br>Lining 2: 55% Polyester, 45% Viscose <br>- Gentle dry cleaning, do not wash, do not bleach', category: 'Blazers' },
     { id: 'LILY Old Money Style Drapey Tailored Trousers', name: 'LILY Old Money Style Drapey Tailored Trousers', price: 69.80, image: './Picture/Product-2.webp', desc: '- Fabric: 85.7% Polyester, 8.3% Viscose, 6.0% Spandex Bag: 100% Polyester <br>- Hand wash, do not bleach, do not dry clean', category: 'Trousers' },
     { id: 'LILY Striped Embroidered Loose-Fit Shirt Jacket', name: 'LILY Striped Embroidered Loose-Fit Shirt Jacket', price: 89.80, image: './Picture/Product-3.webp', desc: '- 77.3% Cotton, 19.9% Nylon, 2.8% Spandex<br>- Hand wash or machine wash cold, do not dry clean', category: 'Shirts' },
     { id: 'LILY Grey-Toned Preppy Layered-Look Plaid Sweatshirt', name: 'LILY Grey-Toned Preppy Layered-Look Plaid Sweatshirt', price: 69.80, image: './Picture/Product-4.webp', desc: '- 60.3% Polyester, 34.3% Cotton, 5.4% Spandex<br>- Hand wash or machine wash cold, do not dry clean', category: 'Sweatshirts' },
